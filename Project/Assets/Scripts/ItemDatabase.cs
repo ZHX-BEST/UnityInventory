@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿/*
+ * 元素源类
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,16 +14,29 @@ public class ItemDatabase : MonoBehaviour {
         BuildDatabase();
     }
 
+    /// <summary>
+    /// 根据编号查找
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns></returns>
     public Item GetItem(int id)
     {
         return items.Find(item=> item.id == id);
     }
 
+    /// <summary>
+    /// 根据名称查找
+    /// </summary>
+    /// <param name="itemName"></param>
+    /// <returns></returns>
     public Item GetItem(string itemName)
     {
         return items.Find(item => item.title == itemName);
     }
 
+    /// <summary>
+    /// 生成元素（后期改为自动生成并加载数据库文件）
+    /// </summary>
     void BuildDatabase()
     {
         items = new List<Item>() {

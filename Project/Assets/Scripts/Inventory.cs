@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿
+/*
+ * 面板类
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

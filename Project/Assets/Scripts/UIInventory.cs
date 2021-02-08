@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿/*
+ * 生成图鉴面板类
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

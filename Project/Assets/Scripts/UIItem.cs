@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿/*
+ * 合成面板元素类
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

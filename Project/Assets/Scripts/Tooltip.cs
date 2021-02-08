@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿
+/*
+ * 光标提示类
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,6 +16,11 @@ public class Tooltip : MonoBehaviour {
         gameObject.SetActive(false);
 	}
 
+    /// <summary>
+    /// 合成元素的光标提示
+    /// 
+    /// </summary>
+    /// <param name="item"></param>
     public void GenerateTooltip(Item item)
     {
         string statText = "";
